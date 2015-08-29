@@ -1,0 +1,8 @@
+{
+    "name": "fredcido/phpsvg",
+    "autoload": {
+        "psr-0" : {
+            "Fredcido\\PHPSVG" : "src"
+        }
+    }
+}
