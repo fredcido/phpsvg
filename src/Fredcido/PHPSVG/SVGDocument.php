@@ -167,7 +167,7 @@ class SVGDocument extends SVGShape
      * @param string $filename the file to save, is optional, you can output to a var
      * @return string the xml string if filename is not passed
      */
-    public function asXML( $filename = null, $humanReadable = true )
+    public function asXML( $filename = null, $humanReadable = false )
     {
         //if is svgz use compres.zlib to load the compacted SVG
         if ( SVGDocument::getFileExtension( $filename ) == self::EXTENSION_COMPACT )
