@@ -32,7 +32,7 @@ namespace Fredcido\PHPSVG;
  *----------------------------------------------------------------------
  */
 
-class SVGShape extends XMLElement
+class SVGShape extends XmlElement
 {
     const TRANSFORM_SEPARATOR = ' ';
 

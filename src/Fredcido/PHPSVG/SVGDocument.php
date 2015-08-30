@@ -58,7 +58,6 @@ include('svggroup.php'); //group
 include('svgclippath.php'); //clippath*/
 /**
  *
-
  *
  * Reference site:
  * http://www.leftontheweb.com/message/A_small_SimpleXML_gotcha_with_namespaces
@@ -101,7 +100,7 @@ class SVGDocument extends SVGShape
      *
      * @return SVGDocument
      */
-    public static function getInstance( $filename = null, $SVGClass = 'SVGDocument' )
+    public static function getInstance( $filename = null, $SVGClass = 'Fredcido\PHPSVG\SVGDocument' )
     {
         if ( !$SVGClass )
         {
